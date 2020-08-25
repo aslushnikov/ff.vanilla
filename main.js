@@ -2,7 +2,7 @@ import {ProtocolRenderer} from './protocol_renderer.js';
 import {Search} from './search.js';
 import {ffProtocolToCDP} from './ffProtocolToCDP.js';
 
-let PROTOCOL = "https://cdn.jsdelivr.net/gh/aslushnikov/juggler@playwright-build/juggler/protocol/Protocol.js";
+let PROTOCOL = "https://cdn.jsdelivr.net/gh/aslushnikov/devops.aslushnikov.com@browser-protocols-data/firefox_protocol.js";
 
 document.addEventListener('DOMContentLoaded', () => {
   let sidebar = document.getElementById('sidebar');

@@ -2,7 +2,7 @@ import {ProtocolRenderer} from './protocol_renderer.js';
 import {Search} from './search.js';
 import {ffProtocolToCDP} from './ffProtocolToCDP.js';
 
-let PROTOCOL = 'https://raw.githubusercontent.com/aslushnikov/devops.aslushnikov.com/datastore--publish-browser-protocols/firefox_protocol.js';
+let PROTOCOL = 'https://raw.githubusercontent.com/microsoft/playwright/main/browser_patches/firefox/juggler/protocol/Protocol.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   let sidebar = document.getElementById('sidebar');
